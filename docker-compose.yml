@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  tower-guard:
+    build: .
+    container_name: tower-guard
+    restart: unless-stopped
